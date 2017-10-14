@@ -36,7 +36,7 @@ h3 {
 p {
   font-size: 0.9rem;
   font-weight: 200;
-  color: #7f7f7f;
+/*  color: #7f7f7f;*/
   padding: 20px;
   margin: 0 auto;
 }
@@ -134,3 +134,77 @@ footer {
     display: table;
 }
 
+
+/********************** Media Queries ***********************/
+
+@media screen and (min-width: 768px) {
+  
+/********************** 768 Main Styles ***********************/
+  
+  li {
+    display: inline-block;
+    padding: 5px;
+    background: none;
+    margin: 0;
+  }
+  
+  li a {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: .9rem;
+  }
+
+/********************** 768 Class Styles ***********************/
+
+  
+  .intro p {
+    float: left;
+    width: 55%;
+    padding: 50px 40px;
+    padding-right: 0;
+    margin: 0;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+  .profile-pic {
+    width: 45%;
+    padding: 50px 40px;
+    padding-left: 20px;
+    float: right;
+    margin: 0;
+  }
+  
+  .portfolio-col {
+    margin: 0 -15px;
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .wrapper-contact {
+    padding-bottom: 60px;
+  }
+  
+  #contact p {
+    max-width: 550px;
+    font-size: 1.1rem;
+  }
+
+  .footer-right {
+    display: none;
+  }
+  .bottom-nav {
+    display: inline-block;
+    float: right;
+  }
+  
+  .bottom-nav a {
+    padding: 20px;
+    padding-left: 0;
+    font-size: .8em;
+  }
+  
+}
