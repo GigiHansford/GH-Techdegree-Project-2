@@ -1,0 +1,136 @@
+/********************** Base Styles ***********************/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #4a4a4a;
+  text-decoration: none;
+  line-height: 1.4rem;
+}
+
+
+/********************** Main Styles ***********************/
+
+body {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 30px 0 20px 0;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1rem;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #7f7f7f;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background: white;
+  margin: 5px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+hr {
+  margin: 0 20px;
+  border: .5px solid lightgrey;
+}
+
+footer {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+
+/********************** Class and ID Styles ***********************/
+
+.wrapper-grey {
+  background: #fafafa;
+/*  padding-bottom: 30px;*/
+}
+
+.wrapper-white {
+  padding-bottom: 30px;
+}
+
+.profile-pic {
+  width: 62.5%;
+  padding-top: 10%;
+}
+
+.intro p {
+  padding-top: 20px;
+/*  padding-bottom: 50px;*/
+}
+
+.portfolio-pic {
+  width: 90%;
+  padding: 10px 0;
+}
+
+#contact {
+  padding-bottom: 30px;
+}
+
+#contact h2 {
+  padding-top: 60px;
+}
+
+#contact p {
+  margin-top: -20px;
+}
+
+.contact-links {
+  padding: 15px;
+  line-height: 2.5rem;
+  font-weight: 200;
+}
+
+.contact-links strong {
+  font-weight: 400;
+}
+
+.bottom-nav {
+  display: none;
+  line-height: 1.5em;
+}
+
+.footer-left {
+  float: left;
+  padding: 20px;
+}
+
+.footer-right {
+  float: right;
+  padding: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
