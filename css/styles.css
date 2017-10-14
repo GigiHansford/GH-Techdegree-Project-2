@@ -135,7 +135,7 @@ footer {
 }
 
 
-/********************** Media Queries ***********************/
+/********************** Media Query for 768px ***********************/
 
 @media screen and (min-width: 768px) {
   
@@ -158,6 +158,9 @@ footer {
 
 /********************** 768 Class Styles ***********************/
 
+  .name {
+    padding-top: 60px;
+  }
   
   .intro p {
     float: left;
@@ -205,6 +208,61 @@ footer {
     padding: 20px;
     padding-left: 0;
     font-size: .8em;
+  }
+  
+}
+
+
+/********************** Media Query for 1024px ***********************/
+
+@media screen and (min-width: 1024px) {
+ 
+/********************** 768 Main Styles ***********************/
+  
+  #full-background {
+    background: #fafafa;
+    padding: 1px;
+  } 
+  
+  
+/********************** 1024 Class Styles ***********************/
+  
+  .name {
+    float: left;
+    padding-left: 65px;
+    margin: 0;
+  }
+  
+  .main-nav {
+    float: right;
+    padding: 40px 0px;
+    margin-right: 45px;
+  }
+  
+  .wrapper-white {
+    max-width: 95%;
+    background: white;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .intro p {
+    padding: 10px 20px 10px 65px;
+    font-size: 1.1rem;
+  }
+  
+  .profile-pic {
+    padding-right: 65px;
+    padding-top: 10px;
+  }
+  
+  .portfolio-col {
+    width: 35%;
+    padding: 5px;
+  }
+  
+   .wrapper-contact {
+    padding-bottom: 0px;
   }
   
 }
